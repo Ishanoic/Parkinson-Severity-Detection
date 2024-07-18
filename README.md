@@ -3,6 +3,7 @@
 This project aims to analyze and predict Parkinson's disease using a dataset with various vocal features. The analysis involves data preprocessing, feature extraction, and machine learning model implementation to predict the presence of Parkinson's disease. Here, `total_UPDRS` shows the extent of Parkinson's Disease.
 
 ## Table of Contents
+- [Results](#results)
 - [Dataset](#dataset)
 - [Dependencies](#dependencies)
 - [Key Steps](#key-steps)
@@ -10,8 +11,46 @@ This project aims to analyze and predict Parkinson's disease using a dataset wit
   - [Data Preprocessing](#data-preprocessing)
   - [Feature Analysis](#feature-analysis)
   - [Model Training and Evaluation](#model-training-and-evaluation)
-- [Results](#results)
 - [Observations](#observations)
+
+### Results
+
+The results section includes the performance metrics of the trained models and visualizations of the results.
+
+#### Performance Metrics
+
+- **Accuracy**: 90.40%
+- **Mean Squared Error**: 8.54
+
+- **Confusion Matrix Visualization**  
+  <img src="https://github.com/user-attachments/assets/5da8df35-0880-4c0f-aa93-e0c0198b381e" alt="Confusion Matrix" width="300"/>
+
+#### Visualizations
+
+Below are some key visualizations that illustrate the performance of the models and insights from the data:
+
+1. **Distribution of Jitter, Shimmer, and HNR**  
+   <img src="https://github.com/user-attachments/assets/b66cc90f-af7e-4466-b1f1-ead3c3589b33" alt="Jitter vs Shimmer Graph" width="300"/>
+
+2. **Age vs Jitter vs Shimmer Graph**  
+   <img src="https://github.com/user-attachments/assets/4724d722-c5e7-4ebb-b1a7-ab1fe484a34e" alt="Age vs Jitter vs Shimmer" width="300"/>
+
+3. **Relation with Age and Sex**  
+   <img src="https://github.com/user-attachments/assets/7f696562-8b8b-4e75-894d-b213aa3d10ef" alt="Relation with Age and Sex 1" width="300"/>  
+   <img src="https://github.com/user-attachments/assets/a1a450e6-535f-40aa-a946-afaeb04f1195" alt="Relation with Age and Sex 2" width="300"/>
+
+4. **UPDRS vs Age and vs Sex**  
+   <img src="https://github.com/user-attachments/assets/70e0e4e8-0a0c-416d-8828-3abee0bb6a05" alt="UPDRS vs Age and Sex" width="300"/>
+
+5. **Final Relation Graph between UPDRS and Age**  
+   <img src="https://github.com/user-attachments/assets/6a16cb43-cd51-4a95-a89b-bd1ef25d278b" alt="UPDRS vs Age" width="300"/>
+
+6. **Feature Importances**  
+   <img src="https://github.com/user-attachments/assets/a031c18e-72e7-45d3-a54e-939eb171fcc7" alt="Feature Importances" width="300"/>
+
+7. **Model Performance Comparison**  
+   <img src="https://github.com/user-attachments/assets/5a4ffb50-148f-4112-a482-9ead27042f5b" alt="Model Performance Comparison" width="300"/>
+
 
 ## Dataset
 
@@ -69,43 +108,6 @@ Analyze important parameters such as Jitter, Shimmer, and HNR.
    - Feature Importance Extraction
    - Training based on top features
 
-### Results
-
-The results section includes the performance metrics of the trained models and visualizations of the results.
-
-#### Performance Metrics
-
-- **Accuracy**: 90.40%
-- **Mean Squared Error**: 8.54
-
-- **Confusion Matrix Visualization**  
-  <img src="https://github.com/user-attachments/assets/5da8df35-0880-4c0f-aa93-e0c0198b381e" alt="Confusion Matrix" width="300"/>
-
-#### Visualizations
-
-Below are some key visualizations that illustrate the performance of the models and insights from the data:
-
-1. **Distribution of Jitter, Shimmer, and HNR**  
-   <img src="https://github.com/user-attachments/assets/b66cc90f-af7e-4466-b1f1-ead3c3589b33" alt="Jitter vs Shimmer Graph" width="300"/>
-
-2. **Age vs Jitter vs Shimmer Graph**  
-   <img src="https://github.com/user-attachments/assets/4724d722-c5e7-4ebb-b1a7-ab1fe484a34e" alt="Age vs Jitter vs Shimmer" width="300"/>
-
-3. **Relation with Age and Sex**  
-   <img src="https://github.com/user-attachments/assets/7f696562-8b8b-4e75-894d-b213aa3d10ef" alt="Relation with Age and Sex 1" width="300"/>  
-   <img src="https://github.com/user-attachments/assets/a1a450e6-535f-40aa-a946-afaeb04f1195" alt="Relation with Age and Sex 2" width="300"/>
-
-4. **UPDRS vs Age and vs Sex**  
-   <img src="https://github.com/user-attachments/assets/70e0e4e8-0a0c-416d-8828-3abee0bb6a05" alt="UPDRS vs Age and Sex" width="300"/>
-
-5. **Final Relation Graph between UPDRS and Age**  
-   <img src="https://github.com/user-attachments/assets/6a16cb43-cd51-4a95-a89b-bd1ef25d278b" alt="UPDRS vs Age" width="300"/>
-
-6. **Feature Importances**  
-   <img src="https://github.com/user-attachments/assets/a031c18e-72e7-45d3-a54e-939eb171fcc7" alt="Feature Importances" width="300"/>
-
-7. **Model Performance Comparison**  
-   <img src="https://github.com/user-attachments/assets/5a4ffb50-148f-4112-a482-9ead27042f5b" alt="Model Performance Comparison" width="300"/>
 
 ## Observations
 
