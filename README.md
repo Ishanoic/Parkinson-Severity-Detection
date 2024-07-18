@@ -67,7 +67,8 @@ The results section includes the performance metrics of the trained models and v
 
 - **Accuracy**: ```90.40%```
 - **Mean Squared Error**: ```8.54```
-- **Confusion Matrix**: ![image](https://github.com/user-attachments/assets/5da8df35-0880-4c0f-aa93-e0c0198b381e)
+- **Confusion Matrix**:
+      ![image](https://github.com/user-attachments/assets/5da8df35-0880-4c0f-aa93-e0c0198b381e)
 
 
 #### Visualizations
@@ -75,7 +76,8 @@ The results section includes the performance metrics of the trained models and v
 Below are some key visualizations that illustrate the performance of the models and insights from the data:
 
 1. **Distribution of Jitter, Shimmer, and HNR**  
-   ![Jitter, Shimmer, and HNR Distribution](path/to/jitter_shimmer_hnr_distribution.png)
+   ![Jitter, Shimmer, and HNR Distribution](![image](https://github.com/user-attachments/assets/0f3daef1-67d6-47d2-ada4-f0afbf52eced)
+)
 
 2. **Confusion Matrix Visualization**  
    ![Confusion Matrix](path/to/confusion_matrix.png)
