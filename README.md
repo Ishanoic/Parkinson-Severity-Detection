@@ -67,9 +67,8 @@ The results section includes the performance metrics of the trained models and v
 
 - **Accuracy**: ```90.40%```
 - **Mean Squared Error**: ```8.54```
-- **Confusion Matrix**:
-      ![image](https://github.com/user-attachments/assets/5da8df35-0880-4c0f-aa93-e0c0198b381e)
-
+- **Confusion Matrix Visualization**  
+   <img src="https://github.com/user-attachments/assets/5da8df35-0880-4c0f-aa93-e0c0198b381e" alt="Confusion Matrix" width="600"/>
 
 #### Visualizations
 
