@@ -61,4 +61,26 @@ park.drop(columns=['test_time'], inplace=True)
 
 ### Results
 
-The results section should include the performance metrics of the trained models, such as accuracy, mean squared error, and a confusion matrix. Visualizations and graphs can be added to illustrate the performance of the models.
+The results section includes the performance metrics of the trained models and visualizations of the results.
+
+#### Performance Metrics
+
+- **Accuracy**: ```90.40%```
+- **Mean Squared Error**: ```8.54```
+- **Confusion Matrix**: ![image](https://github.com/user-attachments/assets/5da8df35-0880-4c0f-aa93-e0c0198b381e)
+
+
+#### Visualizations
+
+Below are some key visualizations that illustrate the performance of the models and insights from the data:
+
+1. **Distribution of Jitter, Shimmer, and HNR**  
+   ![Jitter, Shimmer, and HNR Distribution](path/to/jitter_shimmer_hnr_distribution.png)
+
+2. **Confusion Matrix Visualization**  
+   ![Confusion Matrix](path/to/confusion_matrix.png)
+
+3. **Model Performance Comparison**  
+   ![Model Performance](path/to/model_performance_comparison.png)
+
+Feel free to add more visualizations or graphs as necessary to effectively communicate your results.
