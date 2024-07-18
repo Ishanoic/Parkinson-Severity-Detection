@@ -58,6 +58,8 @@ Analyze important parameters such as Jitter, Shimmer, and HNR.
 
 1. Split the dataset into training and testing sets.
 2. Train machine learning models and evaluate their performance using metrics like accuracy, mean squared error, and confusion matrix.
+3. Algorithms used - Linear Regressor, Elastic Net Regressor, Random Forest Regressor.
+4. Other techniques used - PCA, Feature Importance Extraction, training based on top features
 
 ### Results
 
@@ -91,5 +93,8 @@ Below are some key visualizations that illustrate the performance of the models 
 5. **Final Relation Graph between UPDRS and Age**  
    <img src="https://github.com/user-attachments/assets/6a16cb43-cd51-4a95-a89b-bd1ef25d278b" alt="UPDRS vs Age" width="300"/>
 
-6. **Model Performance Comparison**  
+6. **Feature Importances**  
+   <img src="https://github.com/user-attachments/assets/a031c18e-72e7-45d3-a54e-939eb171fcc7" alt="Feature Importances" width="300"/>
+
+7. **Model Performance Comparison**  
    <img src="https://github.com/user-attachments/assets/5a4ffb50-148f-4112-a482-9ead27042f5b" alt="Model Performance Comparison" width="300"/>
