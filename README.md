@@ -58,8 +58,15 @@ Analyze important parameters such as Jitter, Shimmer, and HNR.
 
 1. Split the dataset into training and testing sets.
 2. Train machine learning models and evaluate their performance using metrics like accuracy, mean squared error, and confusion matrix.
-3. Algorithms used - Linear Regressor, Elastic Net Regressor, Random Forest Regressor.
-4. Other techniques used - PCA, Feature Importance Extraction, training based on top features
+3. **Algorithms Used**:
+   - Linear Regressor
+   - Elastic Net Regressor
+   - Random Forest Regressor
+
+4. **Other Techniques Used**:
+   - Principal Component Analysis (PCA)
+   - Feature Importance Extraction
+   - Training based on top features
 
 ### Results
 
@@ -98,3 +105,39 @@ Below are some key visualizations that illustrate the performance of the models 
 
 7. **Model Performance Comparison**  
    <img src="https://github.com/user-attachments/assets/5a4ffb50-148f-4112-a482-9ead27042f5b" alt="Model Performance Comparison" width="300"/>
+
+## Observations
+
+### PCA (Principal Component Analysis)
+
+I observed that applying PCA to reduce the dimensionality from 15 features to 1 might not be very beneficial. It seems that PCA is more effective when dealing with a larger number of features.
+
+### Combining UPDRS Scores
+
+I decided to combine "total_UPDRS" and "motor_UPDRS" into "combined_UPDRS" as a feature engineering step. This simplifies the target variable for regression modeling.
+
+### Model Evaluation
+
+I used evaluation metrics (MSE, RMSE, MAE, R2) to gain insights into the performance of different regression models, such as Linear Regression, Elastic Net, and Random Forest. Random Forest Regression appeared to perform well, especially based on the R2 score.
+
+### Feature Importance
+
+Analyzing feature importance, particularly the bar chart, helped me identify the features that contribute the most to the model's predictions. Age stood out as the most important feature, aligning with the understanding that Parkinson's disease is more common in older individuals.
+
+- **Best performing scenario till now**: Random Forest Regressor, after applying Feature Importance
+
+### Visualization
+
+I created scatter plots, strip plots, and pair plots to visually represent relationships between different variables. These visualizations are crucial for my understanding of the patterns in the data.
+
+### Decision Tree Visualization
+
+Visualizing decision trees from the random forest models provided insights into how the model makes predictions. This was helpful for interpretability.
+
+### Model Comparison
+
+I compared the performance of Linear Regression, Elastic Net, and Random Forest Regression. It's important to consider the trade-offs between model complexity and performance.
+
+### Avoiding Feature Combination
+
+I chose not to combine all jitter variables into one, considering the slight degradation in the performance of the Random Forest Regressor.
