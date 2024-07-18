@@ -2,6 +2,8 @@
 
 This project aims to analyze and predict Parkinson's disease using a dataset with various vocal features. The analysis involves data preprocessing, feature extraction, and machine learning model implementation to predict the presence of Parkinson's disease.
 
+Here, total_UPDRS shows the extent of Parkinson's Disease.
+
 ## Table of Contents
 - [Dataset](#dataset)
 - [Dependencies](#dependencies)
@@ -75,7 +77,9 @@ The results section includes the performance metrics of the trained models and v
 Below are some key visualizations that illustrate the performance of the models and insights from the data:
 
 1. **Distribution of Jitter, Shimmer, and HNR**  
-   ![Jitter, Shimmer, and HNR Distribution](![image](https://github.com/user-attachments/assets/0f3daef1-67d6-47d2-ada4-f0afbf52eced)
+   ![Jitter vs Shimmer Graph]
+   (![image](https://github.com/user-attachments/assets/b66cc90f-af7e-4466-b1f1-ead3c3589b33)
+
 )
 
 2. **Confusion Matrix Visualization**  
