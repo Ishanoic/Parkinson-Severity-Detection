@@ -79,13 +79,19 @@ Below are some key visualizations that illustrate the performance of the models 
 1. **Distribution of Jitter, Shimmer, and HNR**  
    ![Jitter vs Shimmer Graph]
    (![image](https://github.com/user-attachments/assets/b66cc90f-af7e-4466-b1f1-ead3c3589b33)
+   Age vs Jitter vs Shimmer Graph - ![image](https://github.com/user-attachments/assets/4724d722-c5e7-4ebb-b1a7-ab1fe484a34e)
+   Relation with age and sex - ![image](https://github.com/user-attachments/assets/7f696562-8b8b-4e75-894d-b213aa3d10ef) ![image](https://github.com/user-attachments/assets/a1a450e6-535f-40aa-a946-afaeb04f1195)
+    UPDRS vs age and vs sex - ![image](https://github.com/user-attachments/assets/70e0e4e8-0a0c-416d-8828-3abee0bb6a05)
+
+
 
 )
 
-2. **Confusion Matrix Visualization**  
-   ![Confusion Matrix](path/to/confusion_matrix.png)
 
-3. **Model Performance Comparison**  
+3. **Final Relation Graph between UPDRS and age**
+   ![image](https://github.com/user-attachments/assets/6a16cb43-cd51-4a95-a89b-bd1ef25d278b)
+
+5. **Model Performance Comparison**  
    ![Model Performance](path/to/model_performance_comparison.png)
 
 Feel free to add more visualizations or graphs as necessary to effectively communicate your results.
