@@ -11,6 +11,7 @@ This project aims to analyze and predict Parkinson's disease using a dataset wit
   - [Feature Analysis](#feature-analysis)
   - [Model Training and Evaluation](#model-training-and-evaluation)
 - [Results](#results)
+- [Observations](#observations)
 
 ## Dataset
 
